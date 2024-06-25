@@ -1,0 +1,10 @@
+- [ ] Liste o nome e o email dos professores.
+- [ ] Liste o nome e carga horária de todas as disciplinas.
+- [ ] Liste o nome e a carga horária de todas as disciplinas que já foram cursadas.
+- [ ] Liste o nome dos professores que ministram disciplinas com carga horária de 80 horas.
+- [ ] Liste as notas da disciplina de Lógica de programação.
+- [ ] Liste as disciplinas que ainda não foram cursadas.
+- [ ] Retorne o total de horas das disciplinas cursadas.
+- [ ] Retorne a média de todas as notas de provas.
+- [ ] Liste todos os nomes dos alunos e as disciplinas de cada turma .
+- [ ] Retorne o número de alunos, a disciplina e o nome do professor da turma que possui mais alunos.
