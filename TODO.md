@@ -1,7 +1,7 @@
 - [x] Liste o nome e o email dos professores. - Adnan
 - [x] Liste o nome e carga horária de todas as disciplinas. - Adnan
-- [ ] Liste o nome e a carga horária de todas as disciplinas que já foram cursadas. - Caio
-- [ ] Liste o nome dos professores que ministram disciplinas com carga horária de 80 horas. - Caio
+- [x] Liste o nome e a carga horária de todas as disciplinas que já foram cursadas. - Caio
+- [x] Liste o nome dos professores que ministram disciplinas com carga horária de 80 horas. - Caio
 - [x] Liste as notas da disciplina de Lógica de programação. - Layla
 - [x] Liste as disciplinas que ainda não foram cursadas. - Layla
 - [ ] Retorne o total de horas das disciplinas cursadas. - Gizele
