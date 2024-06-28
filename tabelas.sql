@@ -1,3 +1,5 @@
+BEGIN;
+
 CREATE DATABASE Universidade;
 USE Universidade;
 
@@ -70,7 +72,7 @@ CREATE TABLE DisciplinasNasTurmas (
 CREATE TABLE Notas (
   notaId INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
   aluno_cpf CHAR(11) NOT NULL, 
-  disciplina_id INT NOT NULL, 
+  disciplinaId INT NOT NULL, 
   nota DECIMAL(4, 2) NOT NULL,
   FOREIGN KEY (aluno_cpf) REFERENCES Alunos(cpf), 
   FOREIGN KEY (disciplinaId) REFERENCES Disciplinas(disciplinaId)
@@ -154,3 +156,5 @@ VALUES
 ('12345678901', 1),
 ('12345678901', 2),
 ('12345678902', 3);
+
+COMMIT;
