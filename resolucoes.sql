@@ -5,8 +5,15 @@ SELECT nome, email FROM 'Professores';
 SELECT nome, cargaHoraria from 'Disciplinas';
 
 -- QUESTÃO 3
+SELECT d.nome, d.cargaHoraria 
+FROM Disciplinas d
+JOIN DisciplinasCursadas dc ON d.disciplinaId = dc.disciplinaId;
 
 -- QUESTÃO 4
+SELECT p.nome 
+FROM Professores p
+JOIN Disciplinas d ON p.professorId = d.professorId
+WHERE d.cargaHoraria = 80;
 
 -- QUESTÃO 5
 SELECT n.nota
